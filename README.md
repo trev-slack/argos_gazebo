@@ -14,6 +14,7 @@ Dependencies:
 1. multi_jackal: https://github.com/NicksSimulationsROS/multi_jackal
 2. pointgrey_camera_driver: https://github.com/ros-drivers/pointgrey_camera_driver
 3. Navigation Stack: "sudo apt-get install ros-melodic-navigation"
+
 Once all of the repos are in your workspace, build it with catkin_make. 
 ## Usage
 First move the "lidar_flea" file from the "argos_gazebo/resources" folder to the "multi_jackal/multi_jackal_description/urdf/configs" folder. This file tells the launcher what sensors to add. 
