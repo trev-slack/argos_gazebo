@@ -31,12 +31,6 @@
     <arg name="use_global_tf"  value="false"/>
   </include>
 
-  <!-- Add follow waypoints node -->
-<!--   <node pkg="follow_waypoints" type="follow_waypoints.py" name="follow_waypoints" output="screen">
-    <param name="goal_frame_id" value="map"/>
-    <param name="waypoint_distance_tolerance" value="$(arg wapoint_distance)"/>
-  </node>
- -->
   <!-- View in RVIZ. -->
   <group if="$(arg rviz)">
     <node name="rviz" pkg="rviz" type="rviz" args="-d $(find multi_jackal_tutorials)/rviz/jackal_with_gps.rviz" >
