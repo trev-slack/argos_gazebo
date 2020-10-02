@@ -14,7 +14,7 @@ Dependencies:
 2. pointgrey_camera_driver: https://github.com/ros-drivers/pointgrey_camera_driver - automatic! [GitHub](https://github.com/ros-drivers/pointgrey_camera_driver)
 Once all of the repos are in your workspace, build it with catkin_make. 
 ## Usage
-First move the '<lidar_flea'> file from the argos_gazebo/resources folder to the multi_jackal/multi_jackal_description/urdf/configs folder. This file tells the launcher what sensors to add. 
+First move the '<idar_flea>' file from the argos_gazebo/resources folder to the multi_jackal/multi_jackal_description/urdf/configs folder. This file tells the launcher what sensors to add. 
 A test simulation can be run with '<roslaunch argos_gazebo argos_test.launch>'
 Publish Waypoints to /argos/move_base/goal in the form of MoveBaseActionGoal messages. The RViz display can be modified to show the costmap and planners. 
 ## Navigation
