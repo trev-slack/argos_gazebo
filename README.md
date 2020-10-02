@@ -9,6 +9,7 @@ The simulator uses a 360 2D plannar LiDAR, an FPV camera, IMU, wheel odometry, a
 * Odometer: Clearpath default Odometer
 ## Install
 To install the simulator, ROS Melodic and Gazebo 9 are required. Clone this repository into your catkin workspace along with the required dependencies.
+
 Dependencies:
 1. multi_jackal: https://github.com/NicksSimulationsROS/multi_jackal
 2. pointgrey_camera_driver: https://github.com/ros-drivers/pointgrey_camera_driver
